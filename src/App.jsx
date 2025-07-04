@@ -10,6 +10,7 @@ function App() {
  const [cidade, setCidade] = useState("");
  const [clima, setClima] = useState(null);
  const [previsao, setPrevisao] = useState([]);
+//  const [hora, setHora] = useState(null)
 
  const apiKey = import.meta.env.VITE_API_KEY || null;
   console.log("API_KEY", apiKey)
@@ -46,6 +47,7 @@ const buscarClima = async () => {
       `https://api.openweathermap.org/data/2.5/forecast?q=${cidade}&appid=${apiKey}&units=metric&lang=pt_br`
     );
     setPrevisao(respostaPrevisao.data.list.slice(0, 5))
+   
     console.log("PREVISÃO: ", previsao)
 
     
