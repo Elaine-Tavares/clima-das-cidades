@@ -1,0 +1,53 @@
+.previsao {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.previsao h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #0077ff;
+  text-align: center;
+}
+
+.previsao ul {
+  list-style: none;
+  padding: 0;
+}
+
+.previsaoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.previsaoItem:hover {
+  background-color: #f1f1f1;
+}
+
+.previsaoItem img {
+  width: 40px;
+  height: 40px;
+}
+
+.temperatura {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.descricao {
+  font-size: 1rem;
+  color: #666;
+  text-transform: capitalize;
+}
