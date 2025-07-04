@@ -1,12 +1,34 @@
-# React + Vite
+# 🌤️ Clima das Cidades
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto web que permite buscar informações atualizadas sobre o clima atual e a previsão das próximas horas em qualquer cidade do mundo, utilizando a API da [OpenWeatherMap](https://openweathermap.org/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- Axios
+- CSS Modules
+- OpenWeatherMap API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Funcionalidades
+
+- Busca por cidade
+- Exibe:
+  - Temperatura atual
+  - Ícone e descrição do clima
+  - Previsão para as próximas horas com horário
+- Interface responsiva e amigável
+
+---
+
+Esse projeto foi desenvolvido com o objetivo de praticar o consumo de APIs em React, estilização responsiva e manipulação de estados com hooks.
+📫 Contato
+
+Se quiser trocar uma ideia, dar sugestões ou tirar dúvidas:
+
+    Email: elainetavares.developer@gmail.com
+
+    GitHub: https://github.com/Elaine-Tavares
